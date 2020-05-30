@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+    <title>Meme Generator</title>
+</head>
+<body>
+    <div id="container">
+        <div id="upper">
+            <!-- Animated Title: MEME Generator -->
+            <div id="title">
+                <h1>DA MEME GENERATOR</h1>
+            </div>
+            <!-- Forms: Image, Text-Top, Text-Botton -->
+            <div class="form-div">
+                <form action="" id="image">
+                    <label for="url">Image URL</label>
+                    <input type="text" name="url" placeholder="Enter meme image url here"> 
+                </form>
+            </div>
+            <div class="form-div">
+                <form action="" id="text-top">
+                    <label for="tTop">Text On Top</label>
+                    <input type="text" name="tTop" placeholder="(Optional) Enter text you want on the top of the meme"> 
+                </form>
+            </div>
+            <div class="form-div">
+                <form action="" id="text-bottom">
+                    <label for="tBottom">Text On Botton</label>
+                    <input type="text" name="tBottom" placeholder="(Optional) Enter text you want on the bottom of the meme"> 
+                </form>
+            </div>
+            <!-- Animated Button: Generate -->
+            <div id="generateBtn">
+                <button class="btn generate">GENERATE</button>
+            </div>
+        </div>
+        <div id="lower">
+            <div id="meme-div">
+
+            </div>
+        </div>  
+    </div>
+    <script src="https://kit.fontawesome.com/ee5cfe47f1.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
